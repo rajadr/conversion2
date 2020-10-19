@@ -24,7 +24,11 @@ Create a service capable of serving the following endpoints: For all of the belo
 
 -----
 Please use the following URLs to test the services:
+
 http://localhost:8080/conversions/ktoc?temp=273.0
+
 http://localhost:8080/conversions/ctok?temp=0
+
 http://localhost:8080/conversions/ktom?dist=8
+
 http://localhost:8080/conversions/mtok?dist=8
