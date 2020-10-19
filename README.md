@@ -21,3 +21,10 @@ Create a service capable of serving the following endpoints: For all of the belo
 /conversions/mtok The mtok endpoint should produce, when given an input amount in miles, an output amount in kilometers.
 
 /conversions/ktom The ktom endpoint should produce, when given an input amount in kilometers, an output amount in miles.
+
+-----
+Please use the following URLs to test the services:
+http://localhost:8080/conversions/ktoc?temp=273.0
+http://localhost:8080/conversions/ctok?temp=0
+http://localhost:8080/conversions/ktom?dist=8
+http://localhost:8080/conversions/mtok?dist=8
